@@ -89,7 +89,7 @@ def results():
                            temp_c=temp_c,
                            dt=dt)
 
-
+print("this is cool")
 @app.route('/weather')
 def weather():
     return render_template('weather.html')
